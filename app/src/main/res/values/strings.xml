@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">AndroidLabs</string>
+    <string name="hello_message">Hello world!</string>
+    <string name="ButtonText">I\'m a button</string>
+    <string name="LoginText">Login</string>
+    <string name="PassText">Password</string>
+    <string name="dialog_message">Do you want to finish the activity</string>
+    <string name="dialog_title">Message</string>
+    <string name="ok">Ok</string>
+    <string name="cancel">Cancel</string>
+    <string name="title_activity_test_toolbar">TestToolbar</string>
+    <string name="action_settings">Settings</string>
+</resources>

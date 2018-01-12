@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.markg.androidlabs.WeatherForcast">
+    <ImageView
+        android:id="@+id/weatherImage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@android:drawable/ic_menu_gallery"
+
+        android:minHeight="200dp"
+        android:minWidth="200dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toEndOf="@+id/weatherImage"
+        android:paddingTop="20dp"
+
+        android:id="@+id/currentTemperature" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toEndOf="@+id/weatherImage"
+        android:layout_below="@+id/currentTemperature"
+        android:paddingTop="20dp"
+
+        android:id="@+id/minTemperature" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toEndOf="@+id/weatherImage"
+        android:layout_below="@+id/minTemperature"
+        android:paddingTop="20dp"
+
+        android:id="@+id/maxTemperature" />
+
+    <ProgressBar
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="50dp"
+        android:layout_marginEnd="50dp"
+        android:layout_marginBottom="100dp"
+        android:id="@+id/weatherProgressBar"
+        android:visibility="invisible"
+        style="?android:attr/progressBarStyleHorizontal" />
+
+</RelativeLayout>

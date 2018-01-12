@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">أحلى مسا</string>
+    <string name="hello_message">مساء الفل</string>
+    <string name="ButtonText">أنا زرار</string>
+    <string name="LoginText">تسجيل الدخول</string>
+    <string name="PassText">كلمة السر</string>
+</resources>

@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.markg.androidlabs.TestToolbar">
+
+    <item
+        android:id="@+id/action_settings"
+        android:orderInCategory="100"
+        android:title="@string/action_settings"
+        app:showAsAction="never" />
+
+    <item
+        android:orderInCategory="100"
+        android:title="About"
+        android:id="@+id/about"
+        app:showAsAction="never"
+        />
+
+    <item
+        android:id="@+id/action1"
+        android:title="Add"
+        android:orderInCategory="101"
+        app:showAsAction="always"
+        android:icon="@drawable/add"
+        />
+
+    <item
+        android:id="@+id/action2"
+        android:title="Delete"
+        android:orderInCategory="101"
+        android:icon="@drawable/del"
+        app:showAsAction="always"
+        />
+
+    <item
+        android:id="@+id/action3"
+        android:title="Chat"
+        android:orderInCategory="101"
+        android:icon="@drawable/chat"
+        app:showAsAction="always"
+        />
+
+
+
+</menu>
